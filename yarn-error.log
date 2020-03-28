@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/tgriesser/.nvm/versions/node/v12.16.1/bin/node /usr/local/bin/yarn add typesript
+
+PATH: 
+  /Users/tgriesser/.cargo/bin:/usr/local/opt/mongodb@3.6/bin:/Users/tgriesser/.rvm/gems/ruby-2.2.3/bin:/Users/tgriesser/.rvm/gems/ruby-2.2.3@global/bin:/Users/tgriesser/.rvm/rubies/ruby-2.2.3/bin:/Users/tgriesser/.nvm/versions/node/v12.16.1/bin:/Users/tgriesser/go/bin:/Users/tgriesser/Github/spark-installer:/Users/tgriesser/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/opt/php70:/Users/tgriesser/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tgriesser/.rvm/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typesript: Not found
+      at Request.params.callback [as _callback] (/Users/tgriesser/.config/yarn/global/node_modules/yarn/lib/cli.js:66255:18)
+      at Request.self.callback (/Users/tgriesser/.config/yarn/global/node_modules/yarn/lib/cli.js:129397:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (/Users/tgriesser/.config/yarn/global/node_modules/yarn/lib/cli.js:130369:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (/Users/tgriesser/.config/yarn/global/node_modules/yarn/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

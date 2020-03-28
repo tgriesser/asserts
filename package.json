@@ -1,0 +1,26 @@
+{
+  "name": "@tgriesser/asserts",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/tgriesser/asserts.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "prepublish": "tsc"
+  },
+  "files": [
+    "./src",
+    "./dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.1.4",
+    "babel-jest": "^25.2.3",
+    "jest": "25.2.3",
+    "prettier": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}
