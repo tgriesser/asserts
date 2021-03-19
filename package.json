@@ -8,6 +8,8 @@
     "test": "jest",
     "prepublish": "tsc"
   },
+  "main": "./dist/asserts.js",
+  "types": "./dist/asserts.d.ts",
   "files": [
     "./src",
     "./dist"
